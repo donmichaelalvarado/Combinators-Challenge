@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO MY WEBPAGE</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+<style>
+body {
+font-family: courier;
+margin: 0;
+padding: 0;
+background-color: #B22222;
+text-shadow: 1px 1px black;
+}
+header {
+background-color: #fff;        
+color: #B22222;
+text-align: center;
+height: 270px;
+}
+nav a {  
+display: inline;    
+color: #B22222;
+}
+h1 {
+text-align: center;
+font-size: 50px;
+}
+ul {
+list-style-type: none;
+margin: 0;
+display: flex;
+justify-content: center;
+padding: 0;
+}
+li {
+display: inline;
+}
+li a {
+text-decoration: none;
+font-size: 30px;
+}
+aside {
+background-color: #fff;
+padding: 20px;
+width: 25%;
+text-align: center;
+color: #B22222;
+font-size: 20px;
+}
+footer {
+background-color: #fff;
+color: #B22222;
+text-align: center;
+}
+main {
+color: #fff;
+font-size: 20px;
+text-align: center;
+}
+</style>
+    </header>
+    <aside>
+        <h2>SIDEBAR</h2>
+        <p>This is the sidebar content.</p>
+    </aside>
+    <main>
+        <h2>Main Content</h2>
+        <p>This is the main content area.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
